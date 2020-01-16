@@ -1,5 +1,5 @@
 import { TaskRepository } from './task.repository';
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable, NotFoundException, Logger } from '@nestjs/common';
 import { CreateTaskDTO } from './dto/create-task.dto';
 import { GetTasksFilterDTO } from './dto/get-tasks-filter.dto';
 import { InjectRepository } from '@nestjs/typeorm';
